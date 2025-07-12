@@ -1,4 +1,4 @@
-#运行方式
+# 运行方式
 环境准备
 
 安装依赖：
@@ -14,11 +14,7 @@
 
 如果尚未安装 Jupyter Notebook，可通过以下命令安装：pip install jupyter
 
-
-
-
-
-#运行步骤
+# 运行步骤
 
 启动 Jupyter Notebook：
 
