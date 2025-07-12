@@ -1,3 +1,53 @@
+#运行方式
+环境准备
+
+安装依赖：
+
+请参考 dependencies.md 文件，下载并安装其中列出的第三方库及其指定版本。
+确保使用与 dependencies.md 中指定的版本一致的库，以避免兼容性问题。
+推荐使用 pip 或 conda 安装依赖，例如：pip install -r dependencies.md
+
+或根据 dependencies.md 中的说明逐一安装。
+
+
+安装 Jupyter Notebook：
+
+如果尚未安装 Jupyter Notebook，可通过以下命令安装：pip install jupyter
+
+
+
+
+
+#运行步骤
+
+启动 Jupyter Notebook：
+
+在终端或命令行中，进入项目目录，运行：jupyter notebook
+
+
+这将在浏览器中打开 Jupyter Notebook 界面。
+
+
+打开并运行 Notebook：
+
+在 Jupyter Notebook 界面中，找到项目中的 .ipynb 文件。
+逐个打开每个 Notebook 文件。
+按顺序运行每个代码单元（Cell），可通过点击“Run”按钮或按 Shift + Enter 执行。
+确保按照代码的逻辑顺序运行，以避免依赖错误。
+
+
+
+注意事项
+
+依赖版本：请严格按照 dependencies.md 中指定的版本安装库，版本不匹配可能导致运行错误。
+运行环境：建议使用 Python 虚拟环境（如 venv 或 conda）以隔离项目依赖。
+错误排查：如果运行过程中出现错误，请检查：
+第三方库是否正确安装。
+Jupyter Notebook 是否正常启动。
+代码单元是否按顺序执行。
+
+
+
 # LILA - the sequential pressure-based algorithm for data-driven Leakage Identification and model-based Localization
 This repository contains the Leakage Identification part of **LILA - the sequential pressure-based algorithm for data-driven Leakage Identification
 and model-based Localization in water distribution networks**. LILA identifies potential leakages via semisupervised linear regression of pairwise sensor pressure data and provides the location of theis nearest sensor. LILA also locates leaky pipes relying on an initial set of candidate pipes and a simulation-based optimization framework with iterative linear and mixed-integer linear programming.
